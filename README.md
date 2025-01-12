@@ -14,5 +14,5 @@ This project focuses on analyzing and visualizing interactions among Twitter use
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/twitter-network-analysis.git
-   cd twitter-network-analysis
+   git clone [https://github.com/M0BiN/SN_HW4](https://github.com/M0BiN/SN_HW4)
+   cd SN_HW4
