@@ -142,10 +142,10 @@ function getNewGraph(graph, criteria_label) {
     
             }
         }else if(criteria_label==="spectral"){
-            if (criteria === 3000) color = "#0D47A1";
-            else if (criteria === 2000) color = "#00C853";
+            if (criteria === 3) color = "#0D47A1";
+            else if (criteria === 2) color = "#00C853";
             else if (criteria === 1) color = "#FF6F00";
-            else if (criteria === 1000) color = "#B71C1C";
+            else if (criteria === 0) color = "#B71C1C";
             if ([0, 3, 2, 1].includes(criteria)) {
                 graph.setNodeAttribute(node, "zIndex", 10);
 

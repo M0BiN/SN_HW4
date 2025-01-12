@@ -1,14 +1,30 @@
-# Twitter Network Analysis and Visualization(Social Networks HW4)
+# Twitter Network Analysis and Visualization (Social Networks HW4)
 
-This project focuses on analyzing and visualizing interactions among Twitter users to uncover community structures and patterns of influence. It employs advanced graph-based algorithms and visualization techniques to showcase how users are grouped into communities based on their interactions and activities on the platform.
+This project focuses on analyzing and visualizing interactions within the Twitter network to identify community structures, influential users, and interaction patterns. By leveraging advanced graph-based algorithms and interactive visualizations, it provides insights into how users are grouped and how information flows across the network.
 
-## Features
+## Key Features
 
-- **Community Detection Algorithms**: Implemented various algorithms such as Louvain, K-Shell, Infomap, Label Propagation, and Spectral Partitioning to detect communities within the Twitter network.
-- **Graph Visualization**: Interactive graph visualization using the [Sigma.js](https://sigmajs.org/) library, allowing users to explore the network in a web-based interface.
-- **Dynamic Community Switching**: Dropdown menu to switch between the results of different community detection algorithms and visualize the changes in network structure.
-- **Node Attributes**: Nodes (users) in the graph are enriched with attributes such as community membership, centrality metrics (PageRank, Betweenness, Authority), and interaction details.
-- **HTML Graph Export**: Generates an interactive HTML file to visualize and explore the network offline.
+- **Community Detection Algorithms**: 
+  - Implemented a range of algorithms, including Louvain, K-Shell, Infomap, Label Propagation, and Spectral Partitioning, to uncover communities within the network.
+  - Each algorithm highlights different structural and interactional aspects of the network.
+  
+- **Interactive Graph Visualization**:
+  - Utilized the [Sigma.js](https://sigmajs.org/) library to create a dynamic, web-based interface for exploring the Twitter network.
+  - Users can interact with the graph, examine specific nodes, and navigate the network structure.
+
+- **Dynamic Community Exploration**:
+  - Includes a dropdown menu to toggle between the results of various community detection algorithms.
+  - Visualizes how the network structure shifts with each algorithm's perspective.
+
+- **Node-Level Attributes**:
+  - Each node (user) in the network is enriched with detailed attributes, such as:
+    - Community membership
+    - Centrality metrics: PageRank, Betweenness, and Authority
+    - Interaction-related data
+
+- **Exportable HTML Visualization**:
+  - Generates an interactive HTML file for offline network visualization.
+  - Provides users with the ability to explore and analyze the graph structure independently.
 
 ## Installation and Usage
 
