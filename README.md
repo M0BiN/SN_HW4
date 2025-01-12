@@ -1,4 +1,4 @@
-# Twitter Network Analysis and Visualization
+# Twitter Network Analysis and Visualization(Social Networks HW4)
 
 This project focuses on analyzing and visualizing interactions among Twitter users to uncover community structures and patterns of influence. It employs advanced graph-based algorithms and visualization techniques to showcase how users are grouped into communities based on their interactions and activities on the platform.
 
@@ -15,4 +15,4 @@ This project focuses on analyzing and visualizing interactions among Twitter use
 1. Clone the repository:
    ```bash
    git clone https://github.com/M0BiN/SN_HW4.git
-   cd twitter-network-analysis
+   cd SN_HW4
