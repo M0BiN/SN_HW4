@@ -31,7 +31,7 @@ const fetchGraphCashed = async () => {
         return parse(Graph, fetchedTextGraph);;
     }
 
-    const response = await fetch("/newv9.gexf"); // Correct path to the file
+    const response = await fetch("/SN_HW4/newv9.gexf"); // Correct path to the file
     const gexfText = await response.text();
     fetchedTextGraph = gexfText
     return parse(Graph, gexfText);
